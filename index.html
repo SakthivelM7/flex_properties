@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .header{
+            background-color: blue;
+            height: 60px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .menu{
+            background-color: rgb(255, 132, 0);
+            height: 600px;
+            border: 2px solid black;
+            text-align: center;
+            flex-basis: 200px;
+        }
+        .content{
+            background-color: rgb(38, 126, 14);
+            border: 2px solid black;
+            text-align: center;
+            flex-grow: 1;
+            height: 600px;
+        }
+        .Sidebar{
+            background-color: rgb(205, 14, 14);
+            height: 600px;
+            border: 2px solid black;
+            text-align: center;
+            flex-basis: 200px;
+    
+        }
+        .footer{
+            background-color: rgb(117, 33, 7);
+            height: 60px;
+            border: 2px solid black;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Header</h2>
+    </div>
+    <div style="display: flex;">
+    <div class="menu ">
+        <h2>Menu</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi officia reiciendis sint at pariatur 
+            veritatis officiis doloremque impedit perspiciatis repudiandae aliquam nulla illum magnam, tenetur incidunt asperiores, repellat facere ex temporibus
+        </p>
+    </div>
+    <div class="content">
+        <h2>Content</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam soluta nostrum nemo molestiae quod. Repudiandae eum odio sit quisquam reiciendis consequatur veniam maxime atque corrupti voluptates adipisci assumenda earum architecto tempore qui </p>
+    </div>
+    <div class="Sidebar">
+        <h2>Sidebar</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam adipisci officiis sunt ab eius magni quidem iste qui, labore doloribus, consequuntur minus error. Earum, temporibus laborum. Tempore commodi velit, aliquam eveniet corporis ex illo dolorum nisi blanditiis,
+        </p>
+    </div>
+    </div>
+    <div class="footer">
+        <h2>footer</h2>
+    </div>
+    </div>
+
+</body>
+</html>
